@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_share"
+        android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+        android:showAsAction="always"
+        android:title="@string/action_share_app"/>
+    <item
+        android:id="@+id/action_delete_img"
+        android:icon="@drawable/ic_action_delete"
+        android:showAsAction="always"
+        android:title="always"/>
+    <item
+        android:id="@+id/action_rotate_left"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_rotate_left"/>
+    <item
+        android:id="@+id/action_rotate_right"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_rotate_right"/>
+    <item
+        android:id="@+id/action_details"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_details"/>
+
+</menu>

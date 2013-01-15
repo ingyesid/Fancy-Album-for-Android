@@ -1,0 +1,30 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Style for sherlock action bar -->
+    <style name="Theme.AppStyle" parent="@style/Theme.Sherlock.Light">
+        <item name="actionBarStyle">@style/CustomActionBarStyle</item>
+        <item name="android:actionBarStyle">@style/CustomActionBarStyle</item>
+        <item name="homeAsUpIndicator">@drawable/abs__ic_ab_back_holo_light</item>
+        <item name="android:homeAsUpIndicator">@drawable/abs__ic_ab_back_holo_light</item>
+         
+       
+    </style>
+
+    <style name="CustomActionBarStyle" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="titleTextStyle">@style/CustomTitleColorBar</item>
+        <item name="android:titleTextStyle">@style/CustomTitleColorBar</item>
+        
+       	 
+    </style>
+
+    <!-- Style for the color title bar -->
+    <style name="CustomTitleColorBar" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/title_sherlock_actionbar</item>
+       ele
+    </style>
+     <style name="CustomMenuColor" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Menu">
+        <item name="android:textColor">@color/title_sherlock_actionbar</item>
+       
+    </style>
+
+</resources>
