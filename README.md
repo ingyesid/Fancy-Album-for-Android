@@ -1,4 +1,4 @@
-Fancy-Album-for-Android-
+Fancy-Album-for-Android
 ========================
 
 fancy photo gallery implementation  using:
