@@ -210,12 +210,6 @@ public class ImageDetailsActivity extends SherlockActivity {
 			try {
 				bitmap = MediaStore.Images.Media.getBitmap(
 						getContentResolver(), imageUri);
-				mCursor=MediaStore.Images.Media.query(getContentResolver(), imageUri, null);
-			
-			
-				for (int i = 0; i < mCursor.getColumnCount(); i++) {
-					System.out.println(mCursor.getColumnName(i));
-				}
 				
 
 			} catch (Exception e) {
